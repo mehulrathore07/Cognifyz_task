@@ -11,6 +11,12 @@
 - Tasks: Calculate percentages of table booking and online delivery, compare ratings for restaurants with and without booking, and analyze online delivery availability. Determine the most common price range, calculate average ratings for each price range, and associate colors with top-rated ranges. Leverage feature engineering techniques for enhanced data intelligence.
 - Significance: Deep understanding and provide valuable insights into customer preferences, services, pricing, and data enrichment.
 
+## Level 3: Predictive Modeling and Insights
+
+- Objective: Perform predictive modeling, customer preference analysis, and data visualization to extract deeper insights.
+- Tasks: Build regression models to predict restaurant ratings, evaluate model performance, and compare algorithms. Analyze the relationship between cuisine types and ratings, identify popular cuisines, and determine specific cuisines with higher ratings. Create visualizations to depict rating distributions, compare average ratings, and visualize feature relationships.
+- Significance: Enhance decision-making, understand customer preferences, and predict restaurant ratings, offering comprehensive insights into the restaurant dataset.
+
 # Project Summary
 ## Level 1: Data Exploration and Analysis
 
@@ -23,7 +29,13 @@
 - Analyzed table booking and online delivery services, uncovering insights on customer preferences and availability.
 - Determined the most common price range and associated it with the highest average rating.
 - Employed advanced feature engineering to enhance dataset intelligence.
-- 
+
+## Level 3: Predictive Modeling and Insights
+
+- Built regression models to predict restaurant aggregate ratings, with Random Forest emerging as the top performer.
+- Explored the relationship between cuisine types and restaurant ratings.
+- Analyzed data visualizations to uncover rating distributions and other insights.  
+
 # Conclusion
 ## 1. Data Overview and Exploration:
 
@@ -60,4 +72,24 @@
 - Two new columns, 'Restaurant Name Length' and 'Address Length,' were created based on the length of restaurant names and addresses.
 - One more column is added based on cost per vote.
 - Two binary columns, 'Has Table Booking' and 'Has Online Delivery,' were introduced through categorical variable encoding.
-  
+
+## 7. Predictive Modeling Insights:
+
+- Three regression models, Linear Regression, Decision Tree, and Random Forest, were employed to predict restaurant aggregate ratings.
+- Random Forest outperformed other models, demonstrating the lowest Mean Squared Error (MSE) and the highest R-squared value.
+
+## 8. Customer Preference Analysis:
+
+- Various cuisines such as cafe, mughlai, north Indian, and fast food had a significant impact on restaurant ratings, with varying performance.
+- North Indian and Chinese cuisines displayed greater rating variability, while cafe and fast food cuisines maintained more consistent ratings.
+- Based on the number of votes, North Indian, Mughlai, and Chinese cuisines emerged as the most popular.
+- Italian, Hawaiian, Seafood, Tea, Sandwich, Continental, and Indian cuisines received the highest average ratings.
+
+## 9. Data Visualization Highlights:
+
+- Restaurant ratings followed a negatively skewed distribution.
+- Italian, Hawaiian, Seafood, Tea, Sandwich, Continental, and Indian cuisines secured the top spots in terms of the highest average ratings.
+- Cities like Inner City, Quezon City, and Makati City were identified as the most popular based on the highest average rating.
+- A positive correlation between votes and restaurant ratings was observed.
+
+This comprehensive project journey provided insights into restaurant data, customer preferences, pricing, services, and predictive modeling, contributing to a holistic understanding of the restaurant industry. 
